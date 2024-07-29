@@ -39,7 +39,7 @@ export const ModalHeroWin = ({ open, heroesSelected, handleOpen }) => {
     <Dialog open={open} handler={handleOpen} className="bg-black min-w-full overflow-scroll sm:overflow-auto h-full sm:h-auto">
       <DialogHeader className="flex justify-center">
         <p className="text-2xl text-white text-center">
-          Ganhador da batalhar mortal foi
+          Ganhador da batalha mortal foi
           <span className="font-bold text-green-500 text-nowrap"> {heroWinner?.name} </span>
         </p>
       </DialogHeader>
