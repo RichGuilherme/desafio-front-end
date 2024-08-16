@@ -21,9 +21,9 @@ export const useFetch = () => {
     fetchCharacters()
   }, [setCharacters])
 
-  const filteredCharacters = characters?.filter(character => {
+  const filteredCharacters = characters?.filter(character =>
     character.name.toLowerCase().includes(searchQuery.toLowerCase())
-  })
+  )
 
   return filteredCharacters
 }
